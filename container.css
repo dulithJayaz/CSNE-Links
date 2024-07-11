@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 div.container {
     text-align: center;
     background-color: rgba(0, 180, 200, 0.9);
@@ -20,3 +21,52 @@ div.container {
     overflow-x: hidden;
     overflow-wrap: break-word;
 }
+=======
+/*Main Container*/
+div.container {
+    text-align: center;
+    background-color: rgba(0, 180, 200, 0.7);
+    background-clip:padding-box;
+    border-radius: 25px;
+    
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    
+    width:80%;
+    max-width: 700px;
+    min-width: 450px;
+    height: 100%;
+
+    overflow-x: hidden;
+}
+
+/*Commitee image container*/
+div.header {
+    height: 45%;
+    width: 100%;
+    margin-bottom: 1vh;
+    float: top;
+    border-radius: 25px;
+}
+
+div.header img{
+    height: 100%;
+    width: 100%;
+    padding:0%;
+    border-radius: 25px;
+}
+
+/*Links container*/
+div.links {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    float: bottom;
+}
+>>>>>>> Stashed changes

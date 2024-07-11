@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 div.links {
     display: flex;
     flex-direction: column;
@@ -86,3 +87,94 @@ a span.details h3, p{
     background: #f7f7f7;
     border-color: black;
 }
+=======
+p, h3{
+    position:relative;
+    right: 2vw;
+    font-style: bold;
+    font-family: Verdana;
+}
+
+p{
+    font-size: 15px;
+}
+
+h3{
+    color: black;
+    top: 1vh;
+    font-size: 20px;
+    margin: 0px;
+}
+
+a.link {
+    background: rgba(230,230,230,0.7);
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    border-width: 3px;
+
+    padding: 15px;
+    margin: 10px 0px;
+
+    align-items: center;
+    height: 10%;
+    max-height: 100px;
+}
+
+a.link:hover {
+    background: rgba(255, 255, 255, 1);
+    transition-duration: 0.7s;
+    transition-property: all;
+}
+
+a.link span {
+    display: block;
+    font-size: 14px;
+    color: #666;
+}
+
+a.link span.image{
+    float: left;
+    height: 70px;
+    width: 15%;
+    align-items: center;
+    overflow: hidden;
+}
+
+a.link span.details{
+    float: right;
+    height: 70px;
+    width: 85%;
+    overflow: hidden;
+}
+
+a span.image img{
+    height: 100%;
+    width: 100%;
+}
+
+/*Social media links colors*/
+#whatsapp {
+    border-color: rgb(37, 211, 102);
+}
+
+
+#facebook {
+    border-color: rgb(31, 108, 231);
+}
+
+#instagram {
+    border-color: rgb(131, 58, 180);
+}
+
+#linkedin {
+    border-color: rgb(0, 119, 181);
+}
+
+#youtube {
+    border-color: rgb(255,0,0);
+}
+
+#ticktock {
+    border-color: #000000;
+}
+>>>>>>> Stashed changes
